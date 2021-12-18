@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        #registration-heading {
+            font-size: 30px;
+            font-weight: bold;
+            color: chartreuse;
+            background-color: cornflowerblue;
+        } 
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +16,26 @@
 </head>
 <body>
     <div>
-    <h1 style="color: red; background-color: rgb(255, 136, 0);">Registration Form</h1> 
+    <h1 style="color: blue; background-color: rgba(28, 241, 45, 0.699);">Registration Form</h1> 
     <label>Name</label>
 </div>
 <div>
     <input type="text" placeholder="Enter Your name" />
 </div>
 <div>
-    bghtsnydt j6
+    <label>Select Your Interest</label>
+    <select multiple>
+    <option value="Football">Football</option>
+    <option value="Basketball">Basketball</option>
+     </select>
+    </div>
+    <div>
+        <label>Date OF Birth</label>
+        <input type="date" placeholder="Enter Your DOB" />
+    </div>
+    <div>
+        <label> Dark Mode</label>
+        <input type="checkbox">
     </div>
     <div>
         <button type="submit">Submit</button>
