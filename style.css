@@ -1,4 +1,21 @@
-.registration-title{
+.h1{
     color: rgb(240, 239, 240);
     background-color: black;
 } 
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  nav ul {
+    display: inline-block;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
